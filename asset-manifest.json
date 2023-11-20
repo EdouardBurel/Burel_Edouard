@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EdouardBurel/Burel_Edouard.git/static/css/main.94893a52.css",
+    "main.js": "/EdouardBurel/Burel_Edouard.git/static/js/main.51a7c6ad.js",
+    "static/js/787.4b705864.chunk.js": "/EdouardBurel/Burel_Edouard.git/static/js/787.4b705864.chunk.js",
+    "static/media/vidCH.mp4": "/EdouardBurel/Burel_Edouard.git/static/media/vidCH.1d598508b5ba5b593194.mp4",
+    "static/media/profil.jpg": "/EdouardBurel/Burel_Edouard.git/static/media/profil.dc60cad20b2588e6fb5b.jpg",
+    "static/media/peace.mp3": "/EdouardBurel/Burel_Edouard.git/static/media/peace.1c317cae10f9ad6f3c9a.mp3",
+    "static/media/deadlines.png": "/EdouardBurel/Burel_Edouard.git/static/media/deadlines.9543bc23779ef5dad299.png",
+    "static/media/images2.jpg": "/EdouardBurel/Burel_Edouard.git/static/media/images2.86b1d96a6e5c3516d44b.jpg",
+    "static/media/CRM.jpg": "/EdouardBurel/Burel_Edouard.git/static/media/CRM.baaec534cc2d4251d389.jpg",
+    "static/media/translation-flags.png": "/EdouardBurel/Burel_Edouard.git/static/media/translation-flags.74642d0098861e2c54e5.png",
+    "static/media/web-dev.png": "/EdouardBurel/Burel_Edouard.git/static/media/web-dev.ce3651063e4c3c3abefd.png",
+    "static/media/diploma.jpg": "/EdouardBurel/Burel_Edouard.git/static/media/diploma.49f5bd5691c813e3913a.jpg",
+    "static/media/agile.png": "/EdouardBurel/Burel_Edouard.git/static/media/agile.71c4e1dda0d44bdff20d.png",
+    "static/media/figma.png": "/EdouardBurel/Burel_Edouard.git/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/revicons.eot": "/EdouardBurel/Burel_Edouard.git/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/EdouardBurel/Burel_Edouard.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/EdouardBurel/Burel_Edouard.git/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/EdouardBurel/Burel_Edouard.git/index.html",
+    "main.94893a52.css.map": "/EdouardBurel/Burel_Edouard.git/static/css/main.94893a52.css.map",
+    "main.51a7c6ad.js.map": "/EdouardBurel/Burel_Edouard.git/static/js/main.51a7c6ad.js.map",
+    "787.4b705864.chunk.js.map": "/EdouardBurel/Burel_Edouard.git/static/js/787.4b705864.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94893a52.css",
+    "static/js/main.51a7c6ad.js"
+  ]
+}
