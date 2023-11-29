@@ -75,7 +75,14 @@ export default function Projects({ islanguage }) {
   }
 
   return (
-    <Section title= {islanguage === "FR" ? "Projets & Réalisations" : "Projects & Accomplishments" }  id="examples">
+    <Section
+      title={
+        islanguage === "FR"
+          ? "Projets & Réalisations"
+          : "Projects & Accomplishments"
+      }
+      id="examples"
+    >
       <Tabs
         buttons={
           <>
@@ -83,25 +90,32 @@ export default function Projects({ islanguage }) {
               isSelected={selectedTopic === "quaiAntique"}
               onSelect={() => handleSelect("quaiAntique")}
             >
-              PHP - {islanguage === "FR" ? "Site web Restaurant" : "Restaurant Website" } 
+              PHP -{" "}
+              {islanguage === "FR"
+                ? "Site web Restaurant"
+                : "Restaurant Website"}
             </TabButton>
             <TabButton
               isSelected={selectedTopic === "nicolas"}
               onSelect={() => handleSelect("nicolas")}
             >
-              REACT - {islanguage === "FR" ? "Site vitrine" : "Showcase Website" }
+              REACT -{" "}
+              {islanguage === "FR" ? "Site vitrine" : "Showcase Website"}
             </TabButton>
             <TabButton
               isSelected={selectedTopic === "props"}
               onSelect={() => handleSelect("props")}
             >
-              REACT - {islanguage === "FR" ? "CV en ligne" : "Online Resume" } 
+              REACT - {islanguage === "FR" ? "CV en ligne" : "Online Resume"}
             </TabButton>
             <TabButton
               isSelected={selectedTopic === "charleshome"}
               onSelect={() => handleSelect("charleshome")}
             >
-              PHP - {islanguage === "FR" ? "Application de gestion locative" : "Property management application" }
+              PHP -{" "}
+              {islanguage === "FR"
+                ? "Application de gestion locative"
+                : "Property management application"}
             </TabButton>
           </>
         }

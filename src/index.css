@@ -7,9 +7,7 @@
 html {
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
-
   color: #ebe7ef;
-  /* background: radial-gradient(#280a48, #20043d); */
   background: radial-gradient(#280a48, #20043d); 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,6 +16,10 @@ html {
   -webkit-text-size-adjust: 100%;
   min-height: 80rem;
 }
+/* 
+body {
+  margin: 0;
+} */
 
 main {
   width: 90%;
@@ -157,7 +159,6 @@ main {
     height: 220px;
   }
 
-
 }
 
 @media (max-width: 1500px) {
@@ -192,36 +193,21 @@ main {
 }
 
 @media (min-width: 1750px) {
-  #container-presentation{
-    width: 90%;
-    min-width: 91rem;
-    font-size: 1.1rem;
-  }
-  .skills {
-    width: 100%;
-    min-width: 91rem;
-    margin-left: -9rem;
-    font-size: 1.1rem;
-  }
-
-  #core-concepts {
-    max-width: 91rem;
-    min-width: 80rem;
-    width: 90%;
-  }
-
-  #examples {
-    max-width: 91rem;
-    min-width: 80rem;
-    width: 90%;
-  }
-
+  /* Larger screens */
+  #container-presentation,
+  .skills,
+  #core-concepts,
+  #examples,
   #work-hist {
-    max-width: 91rem;
-    min-width: 80rem;
     width: 90%;
+    min-width: 75rem;
   }
-
+  .skills,
+  #core-concepts,
+  #examples,
+  #work-hist {
+    font-size: 1.1rem;
+  }
 }
 
 
@@ -254,6 +240,10 @@ main {
   #container-presentation{
     width: 90%;
   }
+
+  /* .contactBtn button {
+    padding: 5px 20px;
+  } */
 }
 
 /* DIPLOMAS */
@@ -647,7 +637,7 @@ display: none;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 80%; /* Adjust the width as needed */
+  width: 30%; /* Adjust the width as needed */
 }
 
 .contact-form p {
@@ -656,6 +646,11 @@ display: none;
 }
 
 /* Close button */
+
+.contact-overlay .contact-form .close-button {
+  padding: 6px;
+}
+
 .close-button {
   position: absolute;
   top: 10px;
@@ -705,7 +700,7 @@ display: none;
 .toggle-music {
   display: flex;
   gap: 1rem;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .toggle-container input {
@@ -749,29 +744,6 @@ input:checked + .labelMusic::after {
   background-size: cover;
 }
 
-/* @media(max-width: 760px){
-
-  .labelMusic{
-    width: 50px;
-  }
-
-  input:checked + .labelMusic::after {
-    left: 40px;
-  }
-
-}
-
-@media(max-width: 500px){
-
-  .labelMusic{
-    width: 50px;
-  }
-
-  input:checked + .labelMusic::after {
-    left: 25px;
-  }
-
-} */
 
 /* WORK HIST */
 
