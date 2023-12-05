@@ -34,7 +34,7 @@ export default function Header({ islanguage }) {
           <img src={reactImg} alt="Stylized atom" />
           <div className="presentation">
             <div>
-              <h1>Edouard Burelus</h1>
+              <h1>Edouard Burel</h1>
               <p>
                 {islanguage === "FR"
                   ? PRESENTATION[0].french
