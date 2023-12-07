@@ -23,6 +23,15 @@ export default function TechStack() {
             </div>
           </div>
           <div className="card--techstack">
+            <span>CMS: Wordpress</span>
+            <div className="skill-level">
+              <div className="square square-filled-good"></div>
+              <div className="square square-filled-good"></div>
+              <div className="square square-filled-good"></div>
+              <div className="square square-blank"></div>
+            </div>
+          </div>
+          <div className="card--techstack">
             <span>PHP, Symfony</span>
             <div className="skill-level">
               <div className="square square-filled-medium"></div>
