@@ -27,7 +27,7 @@ export const NAVBAR = [
 export const PRESENTATION = [
   {
     french:
-      "Professionnel motivé, orienté résultats, et bénéficiant de 10 ans d'expérience professionnnelle, je souhaite donner un nouvel élan à ma carrière dans le secteur du développement web. Je cherche désormais à mettre en pratique mes compétences acquises dans ce domaine depuis plus d'un an. Bilingue en anglais et français, je suis reconnu pour mes compétences interpersonnelles qui favorisent une collaboration fluide et productive en équipe.",
+      "Professionnel motivé, orienté résultats, et bénéficiant de 10 ans d'expérience professionnelle, je souhaite donner un nouvel élan à ma carrière dans le secteur du développement web. Je cherche désormais à mettre en pratique mes compétences acquises dans ce domaine depuis plus d'un an. Bilingue en anglais et français, je suis reconnu pour mes compétences interpersonnelles qui favorisent une collaboration fluide et productive en équipe.",
     english:
       "As a motivated professional with ten years of experience, I'm looking to pivot my career towards web development. I aim to apply the skills I've acquired over the past year in this field. Being bilingual in English and French, I'm recognized for my strong interpersonal skills, which promote effective teamwork.",
   },
