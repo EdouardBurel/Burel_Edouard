@@ -20,7 +20,7 @@ export default function Contact({ islanguage }) {
             </button>
             <h2>Contact Information :</h2>
             <p>bureledo@gmail.com</p>
-            <p>(+33) 07 77 34 38 89 </p>
+            <p>(+33) 07-77-34-38-89</p>
           </div>
         </div>
       )}

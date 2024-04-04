@@ -115,7 +115,7 @@ function Welcome() {
   },
   nicolas: {
     title: "Nicolas Pieri - Improvisation théâtrale",
-    link: "http://nicolaspieri.net/",
+    link: "https://www.nicolaspieri.net/",
     gitLink: "https://github.com/EdouardBurel/Nicolas_Pieri",
     site: "🔗 Nicolas Pieri - Website",
   },
