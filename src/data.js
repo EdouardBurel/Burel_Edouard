@@ -27,9 +27,9 @@ export const NAVBAR = [
 export const PRESENTATION = [
   {
     french:
-      "Professionnel motivé, orienté résultats, et bénéficiant de 10 ans d'expérience professionnelle, je souhaite donner un nouvel élan à ma carrière dans le secteur du développement web. Je cherche désormais à mettre en pratique mes compétences acquises dans ce domaine depuis plus d'un an. Bilingue en anglais et français, je suis reconnu pour mes compétences interpersonnelles qui favorisent une collaboration fluide et productive en équipe.",
+      "Professionnel motivé et passionné par le domaine numérique, je suis constamment à l'affût des dernières avancées technologiques, notamment via Daily Dev. Avec 2 ans d'expérience personnelleen fullstack, j'ai réalisé divers projets et développé des sites web, démontrant ma polyvalence et ma capacité à concrétiser des idées innovantes. Fort de 10 années d'expérience dans d'autres domaines, je suis orienté résultats et reconnu pour mes compétences interpersonnelles. Ma maîtrise bilingue de l'anglais et du français facilite la collaboration au sein d'équipes multiculturelles. Je suis prêt à relever de nouveaux défis dans le secteur du développement web! 😀",
     english:
-      "As a motivated professional with ten years of experience, I'm looking to pivot my career towards web development. I aim to apply the skills I've acquired over the past year in this field. Being bilingual in English and French, I'm recognized for my strong interpersonal skills, which promote effective teamwork.",
+      "Motivated professional with a passion for the digital domain, I enjoy following the latest technological advancements through Daily Dev. With 2 years of personal fullstack experience, I have completed various projects and developed websites to challenge myself and learn. With 10 years of experience in other fields, I am results-oriented and recognised for my interpersonal skills. My bilingual proficiency in English and French facilitates collaboration within multicultural teams. I am ready to take on new challenges in the web development sector! 😀",
   },
 
   {
@@ -108,25 +108,21 @@ export const EXAMPLES = {
     link: "https://quai-antique-site-restaurant.herokuapp.com/",
     gitLink: "https://github.com/EdouardBurel/quai_antique",
     site: "🔗 Quai Antique - Website",
-    code: `
-function Welcome() {
-  return <h1>Hello, World!</h1>;
-}`,
+
   },
   nicolas: {
     title: "Nicolas Pieri - Improvisation théâtrale",
     link: "https://www.nicolaspieri.net/",
-    gitLink: "https://github.com/EdouardBurel/Nicolas_Pieri",
+    gitLink: "https://github.com/EdouardBurel/Nicolas_App",
     site: "🔗 Nicolas Pieri - Website",
   },
   props: {
     title: "My resume",
-    link: "http://nicolaspieri.net/",
-    gitLink: "https://github.com/EdouardBurel/Nicolas_Pieri",
+    gitLink: "https://github.com/EdouardBurel/Burel_Edouard",
   },
   charleshome: {
     gitLink: "https://github.com/EdouardBurel/CharlesHomeApp",
-    title: "Charles Home"
+    title: "Charles Home",
   },
 };
 
@@ -201,8 +197,7 @@ export const WORK_HIST_EN = [
     ],
   },
   {
-    title:
-      "Subtitling / Translation (ENG / FR) | Titelbild Berlin + Amsterdam",
+    title: "Subtitling / Translation (ENG / FR) | Titelbild Berlin + Amsterdam",
     date: "2012-2013",
     description: [
       "Translation of various texts within a very short timeframe",

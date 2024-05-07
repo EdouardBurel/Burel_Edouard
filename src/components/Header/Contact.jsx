@@ -18,9 +18,9 @@ export default function Contact({ islanguage }) {
             <button className="close-button" onClick={toggleFormVisibility}>
               &#x2716;
             </button>
-            <h2>Contact Information :</h2>
-            <p>bureledo@gmail.com</p>
-            <p>(+33) 07-77-34-38-89</p>
+            <p style={{ fontSize: '3rem' }}>👋</p>
+            <p>📧 burel-edouard@hotmail.fr</p>
+            <p>📞 (+33) 07-77-34-38-89</p>
           </div>
         </div>
       )}
