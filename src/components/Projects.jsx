@@ -54,6 +54,7 @@ export default function Projects({ islanguage }) {
             <a
               href={EXAMPLES[selectedTopic].link}
               target="_blank"
+              rel="noreferrer noopener"
               style={siteStyle}
             >
               {EXAMPLES[selectedTopic].site}
@@ -64,6 +65,7 @@ export default function Projects({ islanguage }) {
             <a
               href={EXAMPLES[selectedTopic].gitLink}
               target="_blank"
+              rel="noreferrer noopener"
               style={siteStyle}
             >
               GitHub Repository
