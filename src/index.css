@@ -400,7 +400,9 @@ main h2::after {
 
 #examples {
   margin: 3rem auto;
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #examples h2 {
@@ -409,7 +411,6 @@ main h2::after {
 
 #examples menu {
   margin: 1rem 0;
-  padding: 0;
   display: flex;
   gap: 0.5rem;
   list-style: none;
@@ -443,6 +444,49 @@ main h2::after {
   border-radius: 6px;
   background-color: #2f1d43;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#tab-content img {
+  width: 600px;
+  border-radius: 5%;
+  height: auto;
+}
+@media(max-width: 860px){
+
+  #tab-content {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  #tab-content img {
+    width: 350px;
+
+  }
+}
+
+@media(max-width: 450px){
+
+  #tab-content {
+    width: 320px;
+
+  }
+  
+  #tab-content img {
+    width: 270px;
+
+  }
+}
+
+.projectTitles {
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-align: start;
 }
 
 #tab-content h3 {
@@ -879,4 +923,14 @@ input:checked + .labelMusic::after {
 
 .react-multiple-carousel__arrow:hover {
 	background: #140524;
+}
+
+/* IMAGE CAROUSEL */
+
+.image {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image.fade {
+  opacity: 0;
 }

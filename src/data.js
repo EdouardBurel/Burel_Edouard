@@ -5,6 +5,12 @@ import figma from "./assets/figma.png";
 import deadlines from "./assets/deadlines.png";
 import github from "./assets/githubLogo.png";
 import agile from "./assets/agile.png";
+import qAntique from "./assets/chef3.jpg";
+import qAntique1 from "./assets/chef4.jpg";
+import qAntique2 from "./assets/chef5.jpg";
+import nico from "./assets/nico1.jpg";
+import nico2 from "./assets/nico2.jpg";
+import cvPage from "./assets/images2.jpg";
 
 export const NAVBAR = [
   {
@@ -104,21 +110,35 @@ export const CORE_CONCEPTS_EN = [
 
 export const EXAMPLES = {
   quaiAntique: {
+    images: [qAntique, qAntique1, qAntique2],
     title: "Quai Antique",
     link: "https://quai-antique-site-restaurant.herokuapp.com/",
     gitLink: "https://github.com/EdouardBurel/quai_antique",
     site: "🔗 Quai Antique - Website",
-
+    description: {
+      EN: "This is my very first project — a fictional restaurant app with responsive design and both user and admin access. The tech stack for this app includes PHP for the backend, JavaScript, the Bootstrap framework, CRUD operations, and MySQL for the database.",
+      FR: "Ceci est mon tout premier projet - une application de restaurant fictive responsive et un accès utilisateur et administrateur. La tech stack pour cette application comprend du PHP pour le backend, JavaScript, le framework Bootstrap, les opérations CRUD et MySQL pour la base de données.",
+    },
   },
   nicolas: {
+    images: [nico, nico2],
     title: "Nicolas Pieri - Improvisation théâtrale",
     link: "https://www.nicolaspieri.net/",
     gitLink: "https://github.com/EdouardBurel/Nicolas_App",
     site: "🔗 Nicolas Pieri - Website",
+    description: {
+      EN: " This project is a showcase website that I created for a client. The tech stack used for this app includes React and Node.js. On the server side, I used Ionos and GitHub Pages for deployment.",
+      FR: "Ce projet est un site vitrine que j'ai réalisé pour un client. La stack technologique utilisée pour cette application inclut React et Node.js. Côté serveur, j'ai utilisé Ionos et GitHub Pages pour le déploiement.",
+    },
   },
   props: {
+    images: [cvPage],
     title: "My resume",
     gitLink: "https://github.com/EdouardBurel/Burel_Edouard",
+    description: {
+      EN: "This project is the website you are currently viewing, built using React. :-)",
+      FR: " Ce projet est le site que vous consultez actuellement, développé avec React. :-)",
+    },
   },
   charleshome: {
     gitLink: "https://github.com/EdouardBurel/CharlesHomeApp",

@@ -5,6 +5,7 @@ import Section from "./Section";
 import Tabs from "./Tabs";
 import gitLogo from "../assets/github.png";
 import charleshome from "../assets/vidCH.mp4";
+import ImageCard from "./ImageCarousel";
 
 export default function Projects({ islanguage }) {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -49,27 +50,36 @@ export default function Projects({ islanguage }) {
     } else {
       tabContent = (
         <div id="tab-content">
-          <h3>{EXAMPLES[selectedTopic].title}</h3>
+          <ImageCard images={EXAMPLES[selectedTopic].images} />
+          <div className="projectTitles">
+            <h3>{EXAMPLES[selectedTopic].title}</h3>
+            <p>
+              <a
+                href={EXAMPLES[selectedTopic].link}
+                target="_blank"
+                rel="noreferrer noopener"
+                style={siteStyle}
+              >
+                {EXAMPLES[selectedTopic].site}
+              </a>
+            </p>
+            <p style={{ marginTop: "0" }}>
+              <img src={gitLogo} alt="Github-logo" style={linkStyle} />
+              <a
+                href={EXAMPLES[selectedTopic].gitLink}
+                target="_blank"
+                rel="noreferrer noopener"
+                style={siteStyle}
+              >
+                GitHub Repository
+              </a>
+            </p>
+          </div>
+
           <p>
-            <a
-              href={EXAMPLES[selectedTopic].link}
-              target="_blank"
-              rel="noreferrer noopener"
-              style={siteStyle}
-            >
-              {EXAMPLES[selectedTopic].site}
-            </a>
-          </p>
-          <p>
-            <img src={gitLogo} alt="Github-logo" style={linkStyle} />
-            <a
-              href={EXAMPLES[selectedTopic].gitLink}
-              target="_blank"
-              rel="noreferrer noopener"
-              style={siteStyle}
-            >
-              GitHub Repository
-            </a>
+            {islanguage === "FR"
+              ? EXAMPLES[selectedTopic].description.FR
+              : EXAMPLES[selectedTopic].description.EN}
           </p>
         </div>
       );
