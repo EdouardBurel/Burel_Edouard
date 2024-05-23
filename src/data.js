@@ -11,6 +11,8 @@ import qAntique2 from "./assets/chef5.jpg";
 import nico from "./assets/nico1.jpg";
 import nico2 from "./assets/nico2.jpg";
 import cvPage from "./assets/images2.jpg";
+import albums from "./assets/albums1.jpg";
+import albums2 from "./assets/albums2.jpg";
 
 export const NAVBAR = [
   {
@@ -109,6 +111,17 @@ export const CORE_CONCEPTS_EN = [
 ];
 
 export const EXAMPLES = {
+  albumSearch: {
+    images: [albums, albums2],
+    title: "Album Search - API Spotify",
+    link: "https://edouardburel.github.io/ArtistDiscography/",
+    gitLink: "https://github.com/EdouardBurel/ArtistDiscography",
+    site: "🔗 Album Search",
+    description: {
+      EN: "I'm passionate about album covers! This personal project allows users to view albums from an artist or band with just one click. I've integrated the Spotify API to fetch album information for this project.",
+      FR: "J'adore les pochettes d'albums ! Ce projet personnel permet aux utilisateurs de consulter les albums d'un artiste ou d'un groupe en un seul clic. J'ai intégré l'API Spotify pour récupérer les informations sur les albums pour ce projet.",
+    },
+  },
   quaiAntique: {
     images: [qAntique, qAntique1, qAntique2],
     title: "Quai Antique",

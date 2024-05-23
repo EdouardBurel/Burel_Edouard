@@ -108,6 +108,15 @@ export default function Projects({ islanguage }) {
                 : "Restaurant Website"}
             </TabButton>
             <TabButton
+              isSelected={selectedTopic === "albumSearch"}
+              onSelect={() => handleSelect("albumSearch")}
+            >
+              API -{" "}
+              {islanguage === "FR"
+                ? "Recherche d'albums - API Spotify"
+                : "Album search - API Spotify"}
+            </TabButton>
+            <TabButton
               isSelected={selectedTopic === "nicolas"}
               onSelect={() => handleSelect("nicolas")}
             >
