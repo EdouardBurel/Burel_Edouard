@@ -5,14 +5,10 @@ import figma from "./assets/figma.png";
 import deadlines from "./assets/deadlines.png";
 import github from "./assets/githubLogo.png";
 import agile from "./assets/agile.png";
-import qAntique from "./assets/chef3.jpg";
-import qAntique1 from "./assets/chef4.jpg";
-import qAntique2 from "./assets/chef5.jpg";
-import nico from "./assets/nico1.jpg";
-import nico2 from "./assets/nico2.jpg";
+import qAntique from "./assets/quaiAntique.gif";
+import nico from "./assets/nicoSite.gif";
 import cvPage from "./assets/images2.jpg";
-import albums from "./assets/albums1.jpg";
-import albums2 from "./assets/albums2.jpg";
+import albums from "./assets/albums.gif";
 
 export const NAVBAR = [
   {
@@ -112,7 +108,7 @@ export const CORE_CONCEPTS_EN = [
 
 export const EXAMPLES = {
   albumSearch: {
-    images: [albums, albums2],
+    images: [albums],
     title: "Album Search - API Spotify",
     link: "https://edouardburel.github.io/ArtistDiscography/",
     gitLink: "https://github.com/EdouardBurel/ArtistDiscography",
@@ -123,7 +119,7 @@ export const EXAMPLES = {
     },
   },
   quaiAntique: {
-    images: [qAntique, qAntique1, qAntique2],
+    images: [qAntique],
     title: "Quai Antique",
     link: "https://quai-antique-site-restaurant.herokuapp.com/",
     gitLink: "https://github.com/EdouardBurel/quai_antique",
@@ -134,7 +130,7 @@ export const EXAMPLES = {
     },
   },
   nicolas: {
-    images: [nico, nico2],
+    images: [nico],
     title: "Nicolas Pieri - Improvisation théâtrale",
     link: "https://www.nicolaspieri.net/",
     gitLink: "https://github.com/EdouardBurel/Nicolas_App",
