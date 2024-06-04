@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.27623a6f.css",
-    "main.js": "/static/js/main.37e00f30.js",
+    "main.css": "/static/css/main.ce5ea97d.css",
+    "main.js": "/static/js/main.5052e146.js",
     "static/js/787.4b705864.chunk.js": "/static/js/787.4b705864.chunk.js",
     "static/media/quaiAntique.gif": "/static/media/quaiAntique.66131c9f8b04d47b2895.gif",
     "static/media/nicoSite.gif": "/static/media/nicoSite.88cbd5cdc5831811b312.gif",
@@ -21,12 +21,12 @@
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.27623a6f.css.map": "/static/css/main.27623a6f.css.map",
-    "main.37e00f30.js.map": "/static/js/main.37e00f30.js.map",
+    "main.ce5ea97d.css.map": "/static/css/main.ce5ea97d.css.map",
+    "main.5052e146.js.map": "/static/js/main.5052e146.js.map",
     "787.4b705864.chunk.js.map": "/static/js/787.4b705864.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27623a6f.css",
-    "static/js/main.37e00f30.js"
+    "static/css/main.ce5ea97d.css",
+    "static/js/main.5052e146.js"
   ]
 }
