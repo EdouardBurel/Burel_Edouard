@@ -28,6 +28,18 @@ main {
 }
 
 /*NAVBAR*/
+
+.TitleNavbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.iconsNetwork {
+  width: 2.5rem;
+  height: 2.5rem;
+
+}
 .navbar {
   display: flex;
   justify-content: space-between;
